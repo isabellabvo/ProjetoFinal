@@ -1,6 +1,6 @@
 # Título do projeto
-Integrantes
-Vídeo
-Descrição do projeto
-Como instalar as dependências
-Como executar o programa
+Integrantes\n
+Vídeo\n
+Descrição do projeto\n
+Como instalar as dependências\n
+Como executar o programa\n
