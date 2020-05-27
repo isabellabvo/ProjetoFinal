@@ -1,5 +1,5 @@
-# Título do projeto
-Integrantes
+# Torre de blocos
+Isabella Oliveira e Lila Hadba
 Vídeo
 Descrição do projeto
 Como instalar as dependências
