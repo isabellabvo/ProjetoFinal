@@ -77,7 +77,7 @@ def main_menu(screen):
         pygame.draw.rect(screen, (255, 0, 0), button_2) # Desenha o botão 2 (retângulo) na tela
         
         draw_text('Jogar', font, (255, 255, 255), screen, 186, 145) # Desenha o texto "Jogar" na tela
-        draw_text('Instruções', font4, (255, 255, 255), screen, 144, 300) # Desenha o texto "Instruções" na tela
+        draw_text('Instruções', font4, (255, 255, 255), screen, 135, 300) # Desenha o texto "Instruções" na tela
  
         click = False # Definimos o clique como falso
         for event in pygame.event.get(): 
