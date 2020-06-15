@@ -19,3 +19,4 @@ for x in range(1):
         box = template_box.copy()
         box.body.position = 200+x*30, 10+y*20
         space1.add(box, box.body)
+        print('teste')
