@@ -562,25 +562,7 @@ while tela_atual != SAIR: # loop: enquanto a tela atual for diferente de sair...
     elif tela_atual == TELA_GAMEOVER: # condição da tela atual igual a tea do game over
         tela_atual = gameover_screen(screen) # tela atual igual à função gameover_screen(screen)
 
-salva_recorde(0)
+salva_recorde(0) # Zera recorde quando fechar o jogo
 # Finalização
 pygame.quit()  # Função do PyGame que finaliza os recursos utilizados
-sys.exit()
-
-#PERGUNTAS
-#musica de fundo  
-#como deixar o bloco mais rígido?
-
-#GITHUB
-#upload no código completo
-#read.me (base toshi email)
-#Colocar imagens em pasta
-#Colocar sons em pasta
-#Dividir classes
-#Dividir assets (fontes, imagens, som) -> cada um com a sua pasta
-#Código na íntegra
-
-#O QUE FALTA FAZER NO VS CODE
-#musica de fundo
-#comentar o código inteiro
-#233 a 316 estao sem docstring
+sys.exit() # Sair do Sistema 
