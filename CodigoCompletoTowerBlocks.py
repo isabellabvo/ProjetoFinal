@@ -422,8 +422,8 @@ def game_screen(window, modo_jogo):
     elif modo_jogo == TELA_JOGO_NORMAL:
         background = pygame.image.load('assets/imagens/fundo.jpg').convert() # Fundo Padrão
         block_img = pygame.image.load('assets/imagens/block.png').convert_alpha() # Bloco Padrão
-        pygame.mixer.music.load('assets/sons/somnormal.mp3') # Som do bloco caindo Padrão
-
+        pygame.mixer.music.load('assets/sons/somnormal.mp3') 
+   
     block_img = pygame.transform.scale(block_img, (BLOCK_WIDTH, BLOCK_HEIGHT)) # Coloca o bloco em escala
     background = pygame.transform.scale(background,(WIDTH, HEIGHT)) # Coloca o fundo em escala
 
@@ -465,7 +465,7 @@ def game_screen(window, modo_jogo):
 
     # Loop principal
     maior_altura = 0
-    # PLAY
+
     # Enquanto o jogo estiver rodando
     while game and game_state.running: 
 
@@ -483,6 +483,7 @@ def game_screen(window, modo_jogo):
                 if event.key == pygame.K_SPACE:
                     last_block.add_physics(space)
                     building.add(last_block)
+                    pygame.mixer.music.play(0)                   
                     last_block = Block(block_img, camera_y, speedx, False)
                     all_sprites.add(last_block)
                     pygame.mixer.music.play(0)
