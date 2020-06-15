@@ -519,9 +519,9 @@ def game_screen(window, modo_jogo):
 
 
         now = pygame.time.get_ticks()
-        if (now - contagem > cont):
-            segundos-=1
-            cont+=1000
+        if (now - contagem > cont): # Checa se o tempo atual menos a contagem for mais que o contador
+            segundos-=1 # Diminui os segundos
+            cont+=1000 # Aumenta o contador em 1000 milissegundos
 
         # Atualiza estado do jogo
         # Atualizando a posição dos blocos
@@ -562,10 +562,11 @@ while tela_atual != SAIR: # loop: enquanto a tela atual for diferente de sair...
     elif tela_atual == TELA_GAMEOVER: # condição da tela atual igual a tea do game over
         tela_atual = gameover_screen(screen) # tela atual igual à função gameover_screen(screen)
 
+#Zera o recorde quando fecha as telas
 salva_recorde(0)
 # Finalização
 pygame.quit()  # Função do PyGame que finaliza os recursos utilizados
-sys.exit()
+sys.exit() # Sai do sistema
 
 #PERGUNTAS
 #musica de fundo  
