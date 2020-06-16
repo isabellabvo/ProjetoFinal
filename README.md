@@ -2,6 +2,7 @@
 Isabella Oliveira e Lila Hadba
  
 # Vídeo
+https://youtu.be/evk46AFeNss
 
 # Descrição do Projeto
 O projeto final da disciplina de Design de Software do Insper foi desenvolver um jogo com a linguagem de programação Python 3. Desse modo, as alunas Isabella Oliveira e Lila Hadba criaram o jogo Tower Blocks, que consiste em construir a maior torre possível com o tempo limitado e com o nível aumentando de acordo com o tamanho da torre. 
